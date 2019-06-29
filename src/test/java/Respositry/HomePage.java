@@ -20,6 +20,12 @@ private WebElement select_Quantity;
 	public WebElement getBuynow() {
 		return Buynow;
 	}
+	@FindBy(xpath="//input[@class='button special']")
+	private WebElement Buynow3;
+
+	public WebElement getBuynow3() {
+		return Buynow;
+	}
 
 
 	@FindBy(xpath="//input[@class='button special']")
